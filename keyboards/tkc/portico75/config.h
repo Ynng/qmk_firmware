@@ -30,9 +30,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /*Rotary Encoder Pins*/
 #define ENCODERS_PAD_A \
-    { B1 }
-#define ENCODERS_PAD_B \
     { B2 }
+#define ENCODERS_PAD_B \
+    { B1 }
 
 /*Sets the number of pulses per increment*/
 #define ENCODER_RESOLUTION 2
