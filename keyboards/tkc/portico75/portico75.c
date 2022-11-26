@@ -190,12 +190,16 @@ void rgb_matrix_indicators_user(void)
     {
         rgb_matrix_set_color(45, 0xFF, 0xFF, 0xFF);
         rgb_matrix_set_color(87, 0xFF, 0xFF, 0xFF);
+    }else{
+        rgb_matrix_set_color(87, 0x00, 0x00, 0x00);
     }
     // scrolllock
     if (host_keyboard_led_state().scroll_lock)
     {
         rgb_matrix_set_color(13, 0xFF, 0xFF, 0xFF);
         rgb_matrix_set_color(85, 0xFF, 0xFF, 0xFF);
+    }else{
+        rgb_matrix_set_color(85, 0x00, 0x00, 0x00);
     }
 }
 #endif
