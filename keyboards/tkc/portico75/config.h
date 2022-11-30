@@ -19,6 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
+#define TAPPING_TERM 300
+
 /* key matrix size */
 #define MATRIX_ROWS 6
 #define MATRIX_COLS 15
