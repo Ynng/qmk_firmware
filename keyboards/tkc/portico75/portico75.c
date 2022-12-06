@@ -134,10 +134,10 @@ const is31_led PROGMEM g_is31_leds[DRIVER_LED_TOTAL] = {
 
 /*BOTTOM*/
     {0, CS36_SW4, CS35_SW4, CS34_SW4},
-    // {0, CS36_SW5, CS35_SW5, CS34_SW5},
+    {0, CS36_SW5, CS35_SW5, CS34_SW5},
     {0, CS36_SW6, CS35_SW6, CS34_SW6},
     {0, CS36_SW7, CS35_SW7, CS34_SW7},
-    // {0, CS36_SW8, CS35_SW8, CS34_SW8},
+    {0, CS36_SW8, CS35_SW8, CS34_SW8},
     {0, CS36_SW9, CS35_SW9, CS34_SW9},
 
 };
@@ -161,9 +161,9 @@ led_config_t g_led_config = { {
     {224,2},{224,32},{224,62}, //right
 
     {2,64},
-    // {46,64},
+    {46,64},
     {90,64},{134,64},
-    // {178,64},
+    {178,64},
     {222,64}, //bottom
 }, {
     4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
@@ -177,9 +177,9 @@ led_config_t g_led_config = { {
     2, 2, 2,
     2, 2, 2,
     2,
-    // 2,
+    2,
     2, 2,
-    // 2,
+    2,
     2,
 } };
 
